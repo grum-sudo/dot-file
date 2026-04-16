@@ -5,6 +5,8 @@ exec_always --no-startup-id pipewire-pulse
 exec_always --no-startup-id wireplumber
 # compositor
 exec_always --no-startup-id picom -b
+# notifications
+exec --no-startup-id dunst
 # polybar
 exec_always --no-startup-id ~/.config/polybar/launch.sh 
 # keyboard
