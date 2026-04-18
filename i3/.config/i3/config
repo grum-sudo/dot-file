@@ -35,8 +35,8 @@ bindsym $mod+Shift+Delete exec dm-tool lock
 
 # applications
 bindsym $mod+d exec --no-startup-id /home/grum/.config/rofi/scripts/launcher_t1
-bindsym Control+Shift+Escape exec ghostty -e btop
-bindsym $mod+b exec ghostty -e btop
+bindsym Control+Shift+Escape exec ghostty -e bpytop
+bindsym $mod+b exec ghostty -e bpytop
 bindsym $mod+Return exec ghostty
 bindsym $mod+e exec ghostty
 bindsym $mod+Shift+V exec ghostty -e nvim
