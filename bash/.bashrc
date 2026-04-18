@@ -11,3 +11,4 @@ fastfetch
 alias config='/usr/bin/git --git-dir=/home/grum/.dotfiles/ --work-tree=/home/grum'
 export EDITOR=nvim
 export VISUAL=nvim
+export MANPAGER='nvim +Man!'
